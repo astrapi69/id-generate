@@ -4,7 +4,13 @@
 Version 1.1-SNAPSHOT
 -------------
 
+ADDED:
 
+- new method getCurrentId to all generators
+
+CHANGED:
+
+- moved class AtomicBigInteger to its own package 'io.github.astrapi69.id.generate.atomic'
 
 Version 1
 -------------

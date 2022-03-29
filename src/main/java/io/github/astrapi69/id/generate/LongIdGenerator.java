@@ -24,10 +24,10 @@
  */
 package io.github.astrapi69.id.generate;
 
-import java.util.concurrent.atomic.AtomicLong;
-
-import lombok.NonNull;
 import io.github.astrapi69.data.identifiable.IdGenerator;
+import lombok.NonNull;
+
+import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * The class {@link LongIdGenerator} is an implementation of {@link IdGenerator} interface with id
@@ -85,5 +85,15 @@ public class LongIdGenerator implements IdGenerator<Long>
 	public Long getNextId()
 	{
 		return atomicIdCounter.getAndIncrement();
+	}
+
+	/**
+	 * Gets the current id value
+	 *
+	 * @return the current id value
+	 */
+	public Long getCurrentId()
+	{
+		return atomicIdCounter.get();
 	}
 }
