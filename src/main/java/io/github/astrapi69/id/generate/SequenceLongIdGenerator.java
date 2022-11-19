@@ -201,6 +201,7 @@ public final class SequenceLongIdGenerator implements IdGenerator<Long>
 	 * {@inheritDoc}
 	 */
 	@Override
+	@SuppressWarnings("deprecation")
 	protected void finalize() throws Throwable
 	{
 		super.finalize();
