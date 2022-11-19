@@ -39,13 +39,13 @@ your project `build.gradle` if you want to import the core functionality of id-g
 define version in file gradle.properties
 
 ```
-idGenerateVersion=1
+idGenerateVersion=1.1
 ```
 
 or in build.gradle ext area
 
 ```
-    idGenerateVersion = "1"
+    idGenerateVersion = "1.1"
 ```
 
 then add the dependency to the dependencies area
@@ -67,7 +67,7 @@ Than you can add the dependency to your dependencies:
     <properties>
             ...
         <!-- id-generate version -->
-        <id-generate.version>1</id-generate.version>
+        <id-generate.version>1.1</id-generate.version>
             ...
     </properties>
             ...
