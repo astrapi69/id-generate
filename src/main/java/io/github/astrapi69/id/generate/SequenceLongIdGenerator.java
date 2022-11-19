@@ -157,7 +157,7 @@ public final class SequenceLongIdGenerator implements IdGenerator<Long>
 	 *
 	 * @return the current id value
 	 */
-	public long getCurrentId()
+	public Long getCurrentId()
 	{
 		return atomicIdCounter.get();
 	}
