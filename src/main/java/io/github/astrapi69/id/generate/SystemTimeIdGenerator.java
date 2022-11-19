@@ -24,9 +24,9 @@
  */
 package io.github.astrapi69.id.generate;
 
-import io.github.astrapi69.data.identifiable.IdGenerator;
-
 import java.util.concurrent.atomic.AtomicInteger;
+
+import io.github.astrapi69.data.identifiable.IdGenerator;
 
 /**
  * The class {@link SystemTimeIdGenerator} is an base implementation of {@link IdGenerator}

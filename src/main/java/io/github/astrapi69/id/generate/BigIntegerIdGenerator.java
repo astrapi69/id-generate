@@ -24,11 +24,11 @@
  */
 package io.github.astrapi69.id.generate;
 
+import java.math.BigInteger;
+
+import lombok.NonNull;
 import io.github.astrapi69.data.identifiable.IdGenerator;
 import io.github.astrapi69.id.generate.atomic.AtomicBigInteger;
-import lombok.NonNull;
-
-import java.math.BigInteger;
 
 /**
  * The class {@link BigIntegerIdGenerator} is an implementation of {@link IdGenerator} interface
