@@ -62,6 +62,7 @@ public class IntegerIdGenerator implements IdGenerator<Integer>
 	 *
 	 * @param initialValue
 	 *            the initial value for the generator
+	 * @return the new {@link IntegerIdGenerator} object with the given initial value
 	 */
 	public static IntegerIdGenerator of(final @NonNull Integer initialValue)
 	{

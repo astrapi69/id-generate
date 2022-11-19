@@ -62,6 +62,7 @@ public class LongIdGenerator implements IdGenerator<Long>
 	 *
 	 * @param initialValue
 	 *            the initial value for the generator
+	 * @return the new {@link LongIdGenerator} object with the given initial value
 	 */
 	public static LongIdGenerator of(final @NonNull Long initialValue)
 	{

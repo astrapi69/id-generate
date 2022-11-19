@@ -64,6 +64,7 @@ public class BigIntegerIdGenerator implements IdGenerator<BigInteger>
 	 *
 	 * @param initialValue
 	 *            the initial value for the generator
+	 * @return the new {@link BigIntegerIdGenerator} object with the given initial value
 	 */
 	public static BigIntegerIdGenerator of(final @NonNull BigInteger initialValue)
 	{

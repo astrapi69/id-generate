@@ -88,7 +88,7 @@ public final class SequenceLongIdGenerator implements IdGenerator<Long>
 	/**
 	 * Gets the default {@link SequenceLongIdGenerator} object
 	 *
-	 * @return
+	 * @return the default {@link SequenceLongIdGenerator} object
 	 */
 	public static SequenceLongIdGenerator getDefaultIdGenerator()
 	{
@@ -130,6 +130,8 @@ public final class SequenceLongIdGenerator implements IdGenerator<Long>
 	/**
 	 * Factory method for create a new custom {@link SequenceLongIdGenerator} with an initial value
 	 * of 1
+	 *
+	 * @return the new {@link SequenceLongIdGenerator} object with the initial value of 1
 	 */
 	public static SequenceLongIdGenerator newSequenceIdGenerator()
 	{
@@ -141,6 +143,7 @@ public final class SequenceLongIdGenerator implements IdGenerator<Long>
 	 *
 	 * @param initialValue
 	 *            the initial value for the generator
+	 * @return the new {@link SequenceLongIdGenerator} object with the given initial value
 	 */
 	public static SequenceLongIdGenerator newSequenceIdGenerator(long initialValue)
 	{
@@ -181,6 +184,7 @@ public final class SequenceLongIdGenerator implements IdGenerator<Long>
 	 * @param persistOnExit
 	 *            the flag if this {@link SequenceLongIdGenerator} object will be persisted to the
 	 *            preferences
+	 * @return this {@link SequenceLongIdGenerator} object
 	 */
 	public SequenceLongIdGenerator setPersistOnExit(boolean persistOnExit)
 	{
