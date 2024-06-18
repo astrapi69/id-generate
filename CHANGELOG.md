@@ -1,13 +1,16 @@
 ## Change log
 ----------------------
 
-Version 1.2-SNAPSHOT
+Version 2-SNAPSHOT
 -------------
 
 ADDED:
 
 - new libs.versions.toml file for new automatic catalog versions update
 
+CHANGED:
+
+- update to jdk version 17
 
 Version 1.1
 -------------
