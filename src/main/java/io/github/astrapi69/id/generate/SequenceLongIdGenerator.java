@@ -32,11 +32,11 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.prefs.Preferences;
 
+import io.github.astrapi69.data.identifiable.IdGenerator;
+import io.github.astrapi69.id.generate.enumtype.SequenceValue;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.FieldDefaults;
-import io.github.astrapi69.data.identifiable.IdGenerator;
-import io.github.astrapi69.id.generate.enumtype.SequenceValue;
 
 /**
  * The class {@link SequenceLongIdGenerator} is an implementation of {@link IdGenerator} interface

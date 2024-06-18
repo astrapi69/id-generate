@@ -31,9 +31,9 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
-import lombok.extern.java.Log;
-
 import org.junit.jupiter.api.Test;
+
+import lombok.extern.java.Log;
 
 @Log
 public class BigIntegerIdGeneratorTest

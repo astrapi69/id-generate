@@ -26,8 +26,8 @@ package io.github.astrapi69.id.generate;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import lombok.NonNull;
 import io.github.astrapi69.data.identifiable.IdGenerator;
+import lombok.NonNull;
 
 /**
  * The class {@link IntegerIdGenerator} is an implementation of {@link IdGenerator} interface with
