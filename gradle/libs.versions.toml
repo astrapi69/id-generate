@@ -1,5 +1,5 @@
 [versions]
-data-api-version = "3.2.1"
+data-api-version = "4.1"
 gradle-plugin-grgit-version = "5.2.2"
 gradle-plugin-license-version = "0.16.1"
 gradle-plugin-lombok-version = "8.6"
@@ -8,7 +8,7 @@ gradle-plugin-version-catalog-update-version = "0.8.4"
 gradle-plugin-versions-version = "0.51.0"
 junit-jupiter-version = "5.11.0-M2"
 junit-platform-launcher-version = "1.11.0-M2"
-lombok-version = "1.18.22"
+lombok-version = "1.18.32"
 meanbean-version = "2.0.3"
 
 [libraries]

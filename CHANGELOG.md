@@ -11,6 +11,8 @@ ADDED:
 CHANGED:
 
 - update to jdk version 17
+- update of gradle to new version 8.8
+- update of lombok dependency to new patch version 1.18.32
 
 Version 1.1
 -------------
