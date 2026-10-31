@@ -5,12 +5,11 @@
 [![Java CI with Gradle](https://github.com/astrapi69/id-generate/actions/workflows/gradle.yml/badge.svg)](https://github.com/astrapi69/id-generate/actions/workflows/gradle.yml)
 [![Coverage Status](https://codecov.io/gh/astrapi69/id-generate/branch/develop/graph/badge.svg)](https://codecov.io/gh/astrapi69/id-generate)
 [![Open Issues](https://img.shields.io/github/issues/astrapi69/id-generate.svg?style=flat)](https://github.com/astrapi69/id-generate/issues)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.astrapi69/id-generate/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.astrapi69/id-generate)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.astrapi69/id-generate)](https://central.sonatype.com/artifact/io.github.astrapi69/id-generate)
 [![Javadocs](http://www.javadoc.io/badge/io.github.astrapi69/id-generate.svg)](http://www.javadoc.io/doc/io.github.astrapi69/id-generate)
 [![MIT License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](http://opensource.org/licenses/MIT)
 [![Donate](https://img.shields.io/badge/donate-❤-ff2244.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GVBTWLRAZ7HB8)
 [![Hits Of Code](https://hitsofcode.com/github/astrapi69/id-generate?branch=develop)](https://hitsofcode.com/github/astrapi69/id-generate/view?branch=develop)
-[![Lines Of Code](https://tokei.rs/b1/github/astrapi69/id-generate)](https://github.com/astrapi69/id-generate)
 
 </div>
 
@@ -56,8 +55,7 @@ then add the dependency to the dependencies area
 
 ## Maven dependency
 
-Maven dependency is now on sonatype.
-Check out [sonatype repository](https://oss.sonatype.org/index.html#nexus-search;gav~io.github.astrapi69~id-generate~~~) for latest snapshots and releases.
+The library is on Maven Central. Check out [Maven Central](https://central.sonatype.com/artifact/io.github.astrapi69/id-generate) for the latest release.
 
 Add the following maven dependency to your project `pom.xml` if you want to import the core
 functionality of id-generate:
